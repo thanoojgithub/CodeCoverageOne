@@ -8,7 +8,8 @@ http://docs.sonarqube.org/display/PLUG/JaCoCo+Plugin
 
 
 
-mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install org.jacoco:jacoco-maven-plugin:report -Dmaven.test.failure.ignore=true sonar:sonar
+mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install org.jacoco:jacoco-maven-plugin:report 
+-Dmaven.test.failure.ignore=true sonar:sonar
 
 (or) 
 
